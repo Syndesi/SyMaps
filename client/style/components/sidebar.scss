@@ -1,0 +1,59 @@
+.sidebar {
+	position:fixed;
+	top:$bar-height;
+	left:0px;
+	width:250px;
+	bottom:0px;
+	background-color:$color-bg;
+	> .bar {
+		float:left;
+		width:100%;
+		height:25px;
+		margin:0px;
+		line-height:25px;
+		> .button {
+			float:left;
+			width:20%;
+			height:100%;
+			text-align:center;
+		  background-color:$color-active;
+			position:relative;
+			transition:all 0.2s ease-in-out;
+			cursor:pointer;
+			&:hover,
+			&:active,
+			&:focus,
+			&.active {
+				background-color:#fff;
+				> .icon > svg {
+					fill:$color-active;
+				}
+			}
+		}
+	}
+	> .entrys {
+		position:absolute;
+		top:25px;
+		left:0px;
+		right:0px;
+		bottom:0px;
+		> .shadow {
+			position:absolute;
+			top:0px;
+			left:0px;
+			right:0px;
+			height:7px;
+			background:linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, transparent 100%);
+		}
+	}
+}
+
+.row {
+	float:left;
+	width:100%;
+	padding:7px 7px 0px 7px;
+	&:last-child {
+		padding-bottom:7px;
+	}
+	@import './geojson/point.scss';
+}

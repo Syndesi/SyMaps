@@ -1,0 +1,105 @@
+{
+	"name": "Sonnensystem",
+	"objects": [
+		{
+			"name":          "Sonne",
+			"distance":      "0 km",
+			"radius":        "696342 km",
+			"mass":          "198840000000000 x10^16 kg",
+			"day":           "25.38 d",
+			"year":          "0 d",
+			"rotationAngle": "2.75 °",
+			"temperature":   "5778 K",
+			"children": [
+				{
+					"name":          "Merkur",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Venus",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Erde",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Mars",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Jupiter",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Saturn",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Neptun",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				},
+				{
+					"name":          "Uranus",
+					"distance":      " km",
+					"radius":        " km",
+					"mass":          " x10^16 kg",
+					"day":           " d",
+					"year":          " d",
+					"rotationAngle": " °",
+					"temperature":   " K",
+					"children":      []
+				}
+			]
+		}
+	]
+}
