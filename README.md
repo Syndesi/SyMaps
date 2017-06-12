@@ -1,4 +1,4 @@
-# Mango5777
+# SyMaps
 
 SyMaps is an alternative online map which is based on Mapbox GL, an awesome library!
 <br>The software can be seen at [syndesi.de/maps](http://syndesi.de/maps).
